@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Glory:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+:root {
+    --Font_One: 'Poppins', sans-serif;
+    --Font_Two: 'Lato', sans-serif;
+    --Font_Three: 'Glory', sans-serif;
+    --Font_Four: 'Roboto', sans-serif;
+    --Font_Five: 'Ubuntu', sans-serif;
+
+    --BgColor1_body: #d6d3f8;
+    --BgColor2_body: #000000;
+    --BgColor3_body: #000000;
+
+    --Color_para: #ffffff;
+    --Color_para2: #000000;
+    --Color_para3: #E64C3C;
+    --Color_head: #3A1593;
+    --Color_head2: #000000;
+    --Color_head3: #E64C3C;
+    --Color_body: #d6d3f8;
+    --Color_btn: #3A1593;
+    --Color_btn2: #FF165D;
+    --Color_btn3: #E64C3C;
+    --Color_btntxt: #ffffff;
+    --Color_btntxt1: #000000;
+    --Color_icon: #3A1593;
+    --Color_icon2: #E64C3C;
+    --Color_announcement: #3A1593;
+    --Color_announcement2: #E64C3C;
+    --Color_announcement3: #d6d3f8;
+}
+
+body {
+    font-family: var(--Font_One);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: var(--Font_One);
+    color: var(--Color_head) !important;
+}
+
+p {
+    font-family: var(--Font_One);
+    color: var(--Color_para1) !important;
+    word-wrap: break-word;
+}
+
+.cLinktxt {
+    font-family: var(--Font_One);
+    color: var(--Color_head) !important;
+}
+
+.btn {
+    background-color: var(--Color_btn) !important;
+    border-color: var(--Color_btn) !important;
+    color: var(--Color_btntxt) !important;
+    font-family: var(--Font_One);
+}
+
+.cIconcolor {
+    color: var(--Color_icon) !important;
+}
+
+.cInstaalert {
+    background-color: var(--Color_announcement) !important;
+    border-color: var(--Color_announcement) !important;
+    font-family: var(--Font_One);
+}
